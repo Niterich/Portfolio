@@ -1,0 +1,14 @@
+body {
+    background-image: url("../images/space3.jpg");
+    background-size: cover;
+    font-family: 'PT Sans', sans-serif;
+}
+
+#myPic {
+    width: 35%;
+    height: 35%;
+}
+
+.media {
+    color: white;
+}
