@@ -1,7 +1,7 @@
 body {
     background-image: url("../images/space3.jpg");
     background-size: cover;
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto Mono', monospace;
 }
 
 #myPic {
@@ -13,14 +13,25 @@ body {
     color: white;
 }
 
-h1 {
+.btn {
+    background-color: rgba(3,0,50,1);
     color: white;
 }
 
-.vertical-center {
-    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
-    min-height: 100vh; /* These two lines are counted as one :-)       */
-  
-    display: flex;
-    align-items: center;
-  }
+.fab, .far {
+    color: white;
+}
+
+.jumbotron {
+    margin-top: 20%;
+    color: white;
+    background: rgb(3,0,50);
+    background: radial-gradient(closest-side, rgba(3,0,50,1) 0%, rgba(177,209,254,0) 100%);
+}
+body {
+    animation: fadein 3s;   
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
