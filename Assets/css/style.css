@@ -28,6 +28,10 @@ body {
     background: rgb(3,0,50);
     background: radial-gradient(closest-side, rgba(3,0,50,1) 0%, rgba(177,209,254,0) 100%);
 }
+.media-body{
+    background: rgb(3,0,50);
+    background: radial-gradient(closest-side, rgba(3,0,50,1) 10%, rgba(177,209,254,0) 100%);
+}
 body {
     animation: fadein 3s;   
 }
