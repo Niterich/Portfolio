@@ -44,7 +44,7 @@ body {
     .icons {
         position: fixed;
         bottom: 50px;
-        left: 50%;
+        left: 20%;
         right: 50%;
         width: fit-content
     }
