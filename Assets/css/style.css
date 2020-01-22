@@ -40,7 +40,7 @@ body {
     to   { opacity: 1; }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 350px) {
     .icons {
         position: fixed;
         bottom: 100px;
