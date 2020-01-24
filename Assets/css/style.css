@@ -43,7 +43,7 @@ body {
 @media (max-width: 375px) {
     .icons {
         position: fixed;
-        bottom: 50px;
+        bottom: 0;
         /* left: 20%;
         right: 50%; */
         width: 100%;
