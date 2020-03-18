@@ -1,7 +1,7 @@
 body {
     background-image: url("../images/space3.jpg");
     background-size: cover;
-    font-family: 'Roboto Mono', monospace;
+    font-family: "Roboto Mono", monospace;
 }
 
 #myPic {
@@ -14,30 +14,43 @@ body {
 }
 
 .btn {
-    background-color: rgba(3,0,50,1);
+    background-color: rgba(3, 0, 50, 1);
     color: white;
 }
 
-.fab, .far {
+.fab,
+.far {
     color: white;
 }
 
 .jumbotron {
     margin-top: 20%;
     color: white;
-    background: rgb(3,0,50);
-    background: radial-gradient(closest-side, rgba(3,0,50,1) 0%, rgba(177,209,254,0) 100%);
+    background: rgb(3, 0, 50);
+    background: radial-gradient(
+        closest-side,
+        rgba(3, 0, 50, 1) 0%,
+        rgba(177, 209, 254, 0) 100%
+    );
 }
-.media-body{
-    background: rgb(3,0,50);
-    background: radial-gradient(closest-side, rgba(3,0,50,1) 10%, rgba(177,209,254,0) 100%);
+.media-body {
+    background: rgb(3, 0, 50);
+    background: radial-gradient(
+        closest-side,
+        rgba(3, 0, 50, 1) 10%,
+        rgba(177, 209, 254, 0) 100%
+    );
 }
 body {
-    animation: fadein 3s;   
+    animation: fadein 3s;
 }
 @keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 @media (max-width: 375px) {
@@ -59,4 +72,24 @@ body {
     p {
         font-size: 12px;
     }
+}
+
+.card {
+    background: rgb(68, 63, 145);
+    background: radial-gradient(
+        circle,
+        rgba(68, 63, 145, 1) 30%,
+        rgba(0, 86, 205, 0.27494747899159666) 100%
+    );
+    color: white;
+}
+
+.portfolio-links {
+    color: white;
+    font-weight: 700;
+    text-decoration: underline;
+}
+.card-img-top {
+    height: 19em;
+    object-fit: cover;
 }
