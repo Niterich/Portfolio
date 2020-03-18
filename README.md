@@ -1,4 +1,5 @@
 # Portfolio
 My portfolio
 
-Deployed: https://niterich.github.io/Portfolio/
+Deployed: http://www.ryanwilliamsdev.com/
+
